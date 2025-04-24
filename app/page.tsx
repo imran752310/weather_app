@@ -24,6 +24,7 @@ export default function Home() {
     const data = await res.json();
     setWeather(data);
   };
+  
 
   return (
     <div className="bg-black h-[650px] text-center text-white flex items-center">
