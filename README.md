@@ -13,7 +13,7 @@ A modern and responsive Weather App that displays real-time weather data using t
 ## 🛠️ Tech Stack
 
 - **Frontend:** React / Next.js / Tailwind CSS
-- **Backend:** FastAPI / Express (if any)
+- **Backend:** FNext.js
 - **API:** OpenWeatherMap API
 - **Deployment:** Vercel / Netlify / GitHub Pages
 
@@ -21,7 +21,7 @@ A modern and responsive Weather App that displays real-time weather data using t
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/imran752310/weather-app.git
 cd weather-app
 
 # Install dependencies
