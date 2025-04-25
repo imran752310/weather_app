@@ -18,8 +18,8 @@ export default function WeatherCard({
   if (!main || !weather || weather.length === 0) return null;
 
   return (
-    <div className="w-[100%] h-[300px] rounded-3xl bg-gray-600 my-10">
-      <div>
+    <div className=" h-[350px] rounded-3xl bg-gray-500 my-10">
+      <div className="pb-10">
         <Image
           src="/image/cloud-sun.svg"
           alt="Weather icon"
@@ -32,7 +32,7 @@ export default function WeatherCard({
         <h1 className="text-4xl">
           <span className="text-sm">🌡️ Temp</span> {main.temp} °C
         </h1>
-        <div className="mt-8 grid grid-cols-3">
+        <div className="mt-8 pb-10  grid grid-cols-1 sm:grid-cols-2 ">
           <div>🌥️ Condition: {weather[0].description}</div>
           <div>💨 Wind: {wind.speed} m/s</div>
           <div>🌫️ Visibility: {visibility / 1000} km</div>
