@@ -32,7 +32,7 @@ export default function WeatherCard({
         <h1 className="text-4xl">
           <span className="text-sm">🌡️ Temp</span> {main.temp} °C
         </h1>
-        <div className="mt-8 pb-10  grid grid-cols-1 sm:grid-cols-2 ">
+        <div className="mt-8 pb-10  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 ">
           <div>🌥️ Condition: {weather[0].description}</div>
           <div>💨 Wind: {wind.speed} m/s</div>
           <div>🌫️ Visibility: {visibility / 1000} km</div>
